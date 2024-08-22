@@ -139,7 +139,7 @@ class SmsPanel {
     	$slug = 'sms_panel';
     	$callback = array( $this, 'plugin_settings_page_content' );
     	$icon = plugins_url('/assets/images/sms.png', __FILE__);
-    	$position = 56;
+    	$position = 3;
 
       add_menu_page( $page_title, $menu_title, $capability, $slug, $callback, $icon, $position );
 
