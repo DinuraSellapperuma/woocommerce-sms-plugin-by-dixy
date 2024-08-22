@@ -149,7 +149,7 @@ class SmsPanel {
     public function plugin_settings_page_content() {
       ?>
     	  <div class="wrap">
-          <img src= "plugin_dir_path(__FILE__) . /assets/images/logo.png" width="400px">
+          <img src="<?php echo plugins_url('/assets/images/logo.png', __FILE__); ?>" width="400px">
           <h1>SMS Settings Page</h1>
           <?php
             if ( isset( $_GET['settings-updated'] ) && $_GET['settings-updated'] ){
