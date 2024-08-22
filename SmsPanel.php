@@ -12,7 +12,7 @@
  * Author:      Dinura Sellapperuma
  * Author URI:  https://dinurasellapperuma.com/
  * Created:     18.05.2024
- * Version:     1.5
+ * Version:     1.6
  * Text Domain: woocommerce-sms-alerts-by-dixy
  * Domain Path: /lang
  * License:     GPL v2 or later
