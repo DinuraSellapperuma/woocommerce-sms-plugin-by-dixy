@@ -138,7 +138,7 @@ class SmsPanel {
     	$capability = 'manage_options';
     	$slug = 'sms_panel';
     	$callback = array( $this, 'plugin_settings_page_content' );
-    	$icon = '/assets/images/sms.png';
+    	$icon = plugin_dir_path(__FILE__) . '/assets/images/sms.png';
     	$position = 30;
 
       add_menu_page( $page_title, $menu_title, $capability, $slug, $callback, $icon, $position );
@@ -149,7 +149,7 @@ class SmsPanel {
     public function plugin_settings_page_content() {
       ?>
     	  <div class="wrap">
-          <img src="/assets/images/logo.png" width="400px">
+          <img src= "plugin_dir_path(__FILE__) . /assets/images/logo.png" width="400px">
           <h1>SMS Settings Page</h1>
           <?php
             if ( isset( $_GET['settings-updated'] ) && $_GET['settings-updated'] ){
