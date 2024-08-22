@@ -138,8 +138,8 @@ class SmsPanel {
     	$capability = 'manage_options';
     	$slug = 'sms_panel';
     	$callback = array( $this, 'plugin_settings_page_content' );
-    	$icon = plugin_dir_path(__FILE__) . '/assets/images/sms.png';
-    	$position = 30;
+    	$icon = plugins_url('/assets/images/sms.png', __FILE__);
+    	$position = 56;
 
       add_menu_page( $page_title, $menu_title, $capability, $slug, $callback, $icon, $position );
 
