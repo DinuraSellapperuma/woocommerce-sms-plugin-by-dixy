@@ -6,7 +6,7 @@
  * @copyright 2024 Dinura Sellapperuma
  * @license   GPL-2.0-or-later
  *
- * Plugin Name: D I X Y Woocommerce SMS Alerts / OTP 
+ * Plugin Name: Woo SMS BY D I X Y 
  * Description: Send SMS Alert / OTP using D I X Y Woocommerce add-on
  * Plugin URI:  https://dev.dinurasellapperuma.com/
  * Author:      Dinura Sellapperuma
