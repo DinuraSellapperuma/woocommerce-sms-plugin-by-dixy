@@ -134,7 +134,7 @@ class SmsPanel {
     	// Add the menu item and page
       $parent_slug = 'woocommerce';
     	$page_title = 'SMS Panel Settings Page';
-    	$menu_title = 'DIXY SMS';
+    	$menu_title = 'Woo SMS';
     	$capability = 'manage_options';
     	$slug = 'sms_panel';
     	$callback = array( $this, 'plugin_settings_page_content' );
