@@ -314,7 +314,7 @@ class SmsPanel {
               'page' => 'sms_panel_credentials_tab',
               'type' => 'text',
               'placeholder' => 'Enter Sender Mask Name',
-              'supplimental' => '<p>Don&#39;t have an account? <a href="https://textit.biz/signup_1.php" target="_blank">click here</a> to contact me and register for an SMS account<br>If you already have an account,<br> please log in to view API details on the
+              'supplimental' => '<p>Don&#39;t have an account? <a href="https://dinurasellapperuma.com/contact/" target="_blank">click here</a> to contact me and register for an SMS account<br>If you already have an account,<br> please log in to view API details on the
 <a href="https://sms.dinurasellapperuma.com/campaigns/apis" target="_blank">D I X Y SMS Panel.</a>&nbsp;&nbsp;<br>For further assistance, contact me on <a href="https://wa.me/94784991063">WhatsApp</a> at +94 78 499 1063.</p>',
               'style' => 'border-radius:0;width:40%',
              // 'default' => 'xxxxxxxx'
